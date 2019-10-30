@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BovinoWare</string>
+    <string name="cabecalioLista">Vendas Registradas</string>
+    <string name="cabecalioAltera">Alteração de Registro</string>
+    <string name="cabecalioCadastro">Cadastro de Venda</string>
+    <string name="bovino">Dados do Bovino</string>
+    <string name="comprador">Dados do Comprador</string>
+    <string name="txtBrinco">Brinco</string>
+    <string name="txtPeso">Peso</string>
+    <string name="txtRaca">Raça</string>
+    <string name="txtNome">Nome</string>
+    <string name="txtTelefone">Telefone</string>
+    <string name="txtValor">Valor</string>
+    <string name="txtData">Data</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="btnFechar">Fechar</string>
+    <string name="titulo_alerta">Alerta</string>
+    <string name="mensagem_alerta">Preencha todos os campos!</string>
+    <string name="titulo_alerta_excluir">Excluir Registro</string>
+    <string name="mensagem_alerta_excluir">Deseja mesmo excluir esse registro?</string>
+    <string name="op_sim_excluir">Sim</string>
+    <string name="op_nao_excluir">Não</string>
+    <string name="title_activity_bem_vindo">BemVindo</string>
+    <string name="appName">BovinoWare</string>
+    <string name="sobre">Registro de venda de gado.</string>
+    <string name="bw">BW</string>
+    <string name="apresentacao">CADERNETA DE REGISTROS PARA VENDA DE GADO</string>
+</resources>

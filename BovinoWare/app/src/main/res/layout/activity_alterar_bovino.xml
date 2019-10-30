@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".CadastroBovinos">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#1EA4B9"
+            android:importantForAutofill="no"
+            android:minHeight="56dp"
+            app:collapseIcon="@drawable/cow2"
+
+            app:maxButtonHeight="56dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/cabecalioAltera" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/bovino"
+                android:layout_width="fill_parent"
+                android:layout_height="61dp"
+                android:gravity="center"
+                android:importantForAutofill="no"
+                android:text="@string/comprador"
+                android:textColor="#F30505"
+                android:textColorLink="#3F51B5"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtBrinco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtBrinco"
+                android:inputType="textPersonName"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/txtPeso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:ems="10"
+                android:hint="@string/txtPeso"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/txtRaca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtRaca"
+                android:inputType="textPersonName"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/txtData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtData"
+                android:importantForAutofill="no"
+                android:inputType="date" />
+
+
+            <EditText
+                android:id="@+id/txtValor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:hint="@string/txtValor"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/comprador"
+                android:layout_width="fill_parent"
+                android:layout_height="61dp"
+                android:gravity="center"
+                android:importantForAutofill="no"
+                android:text="@string/comprador"
+                android:textColor="#F30505"
+                android:textColorLink="#3F51B5"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtNome"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtTelefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtTelefone"
+                android:importantForAutofill="no"
+                android:inputType="phone" />
+
+
+            <Button
+                android:id="@+id/btnAlterar"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:text="Alterar"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnExcluir"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:text="Excluir"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnVoltar"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:text="Voltar"
+                android:textSize="24sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

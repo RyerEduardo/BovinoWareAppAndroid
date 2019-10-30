@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BovineWare</string>
+    <string name="cabecalioLista">Registered Sales</string>
+    <string name="cabecalioAltera">Registry Change</string>
+    <string name="cabecalioCadastro">Register of Sale</string>
+    <string name="bovino">Cattle Data</string>
+    <string name="comprador">Buyer Data</string>
+    <string name="txtBrinco">Earring</string>
+    <string name="txtPeso">Weight</string>
+    <string name="txtRaca">Breed</string>
+    <string name="txtNome">Name</string>
+    <string name="txtTelefone">telephone</string>
+    <string name="txtValor">Value</string>
+    <string name="txtData">Date</string>
+    <string name="btnCadastrar">Register</string>
+    <string name="btnFechar">Close</string>
+    <string name="titulo_alerta">Alert</string>
+    <string name="mensagem_alerta">Fill in all the fields!</string>
+    <string name="titulo_alerta_excluir">Delete Record</string>
+    <string name="mensagem_alerta_excluir">Do you really want to delete this record?</string>
+    <string name="op_sim_excluir">Yes</string>
+    <string name="op_nao_excluir">Not</string>
+    <string name="title_activity_bem_vindo">Welcome</string>
+    <string name="appName">BovineWare</string>
+    <string name="sobre">Registration of sale of cattle.</string>
+    <string name="bw">BW</string>
+    <string name="apresentacao">RECORD OF CATTLE FOR SALE OF CATTLE</string>
+</resources>

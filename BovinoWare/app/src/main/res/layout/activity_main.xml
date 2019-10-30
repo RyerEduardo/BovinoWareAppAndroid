@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#1EA4B9"
+            android:importantForAutofill="no"
+            android:minHeight="56dp"
+            app:collapseIcon="@drawable/cow2"
+
+            app:maxButtonHeight="56dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/cabecalioLista" />
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ListView
+        android:id="@+id/listaBovinos"
+        android:layout_width="match_parent"
+        android:layout_height="373dp" />
+
+    <ImageButton
+        android:id="@+id/btnNovaVenda"
+        android:layout_width="125dp"
+        android:layout_height="138dp"
+        android:layout_gravity="bottom|center"
+        android:background="@null"
+        app:srcCompat="@drawable/icone" />
+
+</LinearLayout >

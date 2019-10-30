@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".CadastroBovinos">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/cabecalio"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#1EA4B9"
+            android:importantForAutofill="no"
+            android:minHeight="56dp"
+
+
+            app:maxButtonHeight="56dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/cabecalioCadastro" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bovino"
+                android:layout_width="fill_parent"
+                android:layout_height="61dp"
+                android:gravity="center"
+                android:importantForAutofill="no"
+                android:text="@string/bovino"
+                android:textColor="#F30505"
+                android:textColorLink="#3F51B5"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtBrinco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtBrinco"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtPeso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtPeso"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/txtValor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtValor"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/txtRaca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtRaca"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtData"
+                android:importantForAutofill="no"
+                android:inputType="date" />
+
+            <TextView
+                android:id="@+id/comprador"
+                android:layout_width="fill_parent"
+                android:layout_height="61dp"
+                android:gravity="center"
+                android:importantForAutofill="no"
+                android:text="@string/comprador"
+                android:textColor="#F30505"
+                android:textColorLink="#3F51B5"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtNome"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtTelefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtTelefone"
+                android:importantForAutofill="no"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/btnCadastrar"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:text="@string/btnCadastrar"
+                android:textColorLink="#E91E63"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnFechar"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:text="@string/btnFechar"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
